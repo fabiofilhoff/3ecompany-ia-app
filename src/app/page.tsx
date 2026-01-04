@@ -137,24 +137,7 @@ export default function LoginPage() {
                       className="border-gray-300 focus:border-[#7C3AED] focus:ring-[#7C3AED]"
                     />
                   </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="company">Empresa</Label>
-                    <Input
-                      id="company"
-                      type="text"
-                      placeholder="Nome da empresa"
-                      className="border-gray-300 focus:border-[#7C3AED] focus:ring-[#7C3AED]"
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="cnpj">CNPJ (opcional)</Label>
-                    <Input
-                      id="cnpj"
-                      type="text"
-                      placeholder="00.000.000/0000-00"
-                      className="border-gray-300 focus:border-[#7C3AED] focus:ring-[#7C3AED]"
-                    />
-                  </div>
+
                   <div className="space-y-2">
                     <Label htmlFor="register-password">Senha</Label>
                     <Input
